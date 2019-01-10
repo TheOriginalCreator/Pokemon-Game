@@ -1,0 +1,76 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: rgba(180, 52, 52, 0.445);
+}
+
+body{
+    background-image: url('https://bit.ly/2K5wt3Q');
+    background-size: auto;
+}
+
+.button {
+    background-color: rgb(207, 200, 200);
+    width: 12vw;
+    height: vh;
+    border: 1px double black;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.button2 {
+    background-color: rgb(207, 200, 200);
+    width: 12vw;
+    height: 3vh;
+    border: 1px double black;
+    color: black;
+    text-decoration: none;
+    align-items: flex-start;
+    text-align: center;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    font: 400 11px system-ui;
+    font-size: 15px;
+}
+
+.input {
+    width: 20vw;
+    height: 2vh;
+    border: 1px double black;
+    background-color: white;
+}
+
+.name {
+    border: 1px dotted black;
+    height: 23vh;
+    width: 17vw;
+    background-color: rgba(255, 255, 255, 0.685);
+}
+
+.moves {
+    border: 1px dotted black;
+    height: 18vh;
+    width: 17vw;
+    background-color: rgba(255, 255, 255, 0.685);
+}
+
+.stats {
+    border: 1px dotted black;
+    height: 43vh;
+    width: 17vw;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.685);
+}
+
+.title {
+    color: red;
+}
